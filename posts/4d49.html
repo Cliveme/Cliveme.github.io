@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="friends, Cloveme">
+    <meta name="keywords" content="hexo 写的文章不见了, Cloveme">
     <meta name="description" content="学海无涯，回头是岸">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>friends | Cloveme</title>
+    <title>hexo 写的文章不见了 | Cloveme</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -308,12 +308,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">friends</h1>
+                    <h1 class="description center-align post-title">hexo 写的文章不见了</h1>
                 </div>
             </div>
         </div>
@@ -428,12 +428,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/hexo/">
+                                <span class="chip bg-color">hexo</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/hexo/" class="post-category">
+                                hexo
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -442,7 +455,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2020-07-11
+                    2020-07-12
                 </div>
                 
 
@@ -458,7 +471,32 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h1><p>hexo s 本地预览发现写好的文章不见了。</p>
+<h1 id="原因猜想分析："><a href="#原因猜想分析：" class="headerlink" title="原因猜想分析："></a>原因猜想分析：</h1><ul>
+<li>tag 设置了中文<ul>
+<li>将测试文章的 tag 改成Cloveme ，hexo s 后并没有解决问题——排除</li>
+</ul>
+</li>
+<li>设置 tag 不标准<ul>
+<li>怀疑是由于设置 tag 时手残造成bug，因此因此对比其他选项发现冒号后面缺少了空格，加上空格后重新 hexo clean\g\s  问题解决</li>
+<li><img src="E:%5Cnodejs%5Cblog%5Csource%5C_posts%5Cimage-20200712222351838.png" alt="image-20200712222351838"></li>
+</ul>
+</li>
+</ul>
+<h1 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h1><p>综上造成文章找不到的主要原因是冒号后面没有空格</p>
+<h2 id="创建文章的标准步骤"><a href="#创建文章的标准步骤" class="headerlink" title="创建文章的标准步骤"></a>创建文章的标准步骤</h2><ul>
+<li><p>创建文章：</p>
+<ul>
+<li><pre><code>hexo new Cloveme的博客</code></pre></li>
+</ul>
+</li>
+<li><p>编辑分类、标签、题目</p>
+<ul>
+<li>笔者使用 typora 软件直接编辑（注意冒号后面的空格）</li>
+</ul>
+</li>
+</ul>
+
             </div>
             <hr/>
 
@@ -483,7 +521,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://yoursite.com/friends/index.html">http://yoursite.com/friends/index.html</a>
+                    <a href="http://yoursite.com/posts/4d49.html">http://yoursite.com/posts/4d49.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -520,7 +558,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/tags/hexo/">
+                                    <span class="chip bg-color">hexo</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -828,34 +870,53 @@
                 <i class="far fa-dot-circle"></i>&nbsp;Current
             </div>
             <div class="card">
-                <a href="/friends/index.html">
+                <a href="/posts/4d49.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="friends">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="hexo 写的文章不见了">
                         
-                        <span class="card-title">friends</span>
+                        <span class="card-title">hexo 写的文章不见了</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            问题描述：hexo s 本地预览发现写好的文章不见了。
+原因猜想分析：
+tag 设置了中文
+将测试文章的 tag 改成Cloveme ，hexo s 后并没有解决问题——排除
+
+
+设置 tag 不标准
+怀疑是由于设置 tag 时手残造成bu
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-12
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Cloveme
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/hexo/" class="post-category">
+                                    hexo
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -863,37 +924,48 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/friends/index.html">
+                <a href="/posts/8af4.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="friends">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Cloveme的第一篇博客">
                         
-                        <span class="card-title">friends</span>
+                        <span class="card-title">Cloveme的第一篇博客</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            简述​      古之学者必有师。师者，所以传道受业解惑也。人非生而知之者，孰能无惑？惑而不从师，其为惑也，终不解矣。生乎吾前，其闻道也固先乎吾，吾从而师之；生乎吾后，其闻道也亦先乎吾，吾从而师之。吾师道也，夫庸知其年之先后生于吾乎？是故无
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-12
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Cloveme
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E4%B8%AA%E4%BA%BA/" class="post-category">
+                                    个人
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Cloveme/">
+                        <span class="chip bg-color">Cloveme</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>

@@ -4,19 +4,50 @@
   
     
     <entry>
-      <title>Cloveme的第一篇博客</title>
-      <link href="/posts/8af4.html"/>
-      <url>/posts/8af4.html</url>
+      <title>hexo 写的文章不见了</title>
+      <link href="/posts/4d49.html"/>
+      <url>/posts/4d49.html</url>
       
-        <content type="html"><![CDATA[<h1 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h1><p>​        古之学者必有师。师者，所以传道受业解惑也。人非生而知之者，孰能无惑？惑而不从师，其为惑也，终不解矣。生乎吾前，其闻道也固先乎吾，吾从而师之；生乎吾后，其闻道也亦先乎吾，吾从而师之。吾师道也，夫庸知其年之先后生于吾乎？是故无贵无贱，无长无少，道之所存，师之所存也。</p><h1 id="你好世界！"><a href="#你好世界！" class="headerlink" title="你好世界！"></a>你好世界！</h1><p>你好世界！你好Cloveme的博客！</p><h1 id="再见！"><a href="#再见！" class="headerlink" title="再见！"></a>再见！</h1><p>​                将进酒—-李白</p><p>君不见，黄河之水天上来，奔流到海不复回。</p><p>君不见，高堂明镜悲白发，朝如青丝暮成雪。</p><p>人生得意须尽欢，莫使金樽空对月。</p><p>天生我材必有用，千金散尽还复来。</p><p>烹羊宰牛且为乐，会须一饮三百杯。</p><p>岑夫子，丹丘生，将进酒，杯莫停。</p><p>与君歌一曲，请君为我倾耳听。</p><p>钟鼓馔玉不足贵，但愿长醉不复醒。</p><p>古来圣贤皆寂寞，惟有饮者留其名。</p><p>陈王昔时宴平乐，斗酒十千恣欢谑。</p><p>主人何为言少钱，径须沽取对君酌。</p><p>五花马，千金裘，呼儿将出换美酒，与尔同销万古愁。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h1><p>hexo s 本地预览发现写好的文章不见了。</p><h1 id="原因猜想分析："><a href="#原因猜想分析：" class="headerlink" title="原因猜想分析："></a>原因猜想分析：</h1><ul><li>tag 设置了中文<ul><li>将测试文章的 tag 改成Cloveme ，hexo s 后并没有解决问题——排除</li></ul></li><li>设置 tag 不标准<ul><li>怀疑是由于设置 tag 时手残造成bug，因此因此对比其他选项发现冒号后面缺少了空格，加上空格后重新 hexo clean\g\s  问题解决</li><li><img src="E:%5Cnodejs%5Cblog%5Csource%5C_posts%5Cimage-20200712222351838.png" alt="image-20200712222351838"></li></ul></li></ul><h1 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h1><p>综上造成文章找不到的主要原因是冒号后面没有空格</p><h2 id="创建文章的标准步骤"><a href="#创建文章的标准步骤" class="headerlink" title="创建文章的标准步骤"></a>创建文章的标准步骤</h2><ul><li><p>创建文章：</p><ul><li><pre><code>hexo new Cloveme的博客</code></pre></li></ul></li><li><p>编辑分类、标签、题目</p><ul><li>笔者使用 typora 软件直接编辑（注意冒号后面的空格）</li></ul></li></ul>]]></content>
       
       
       <categories>
           
-          <category> uncategorized </category>
+          <category> hexo </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Cloveme的第一篇博客</title>
+      <link href="/posts/8af4.html"/>
+      <url>/posts/8af4.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h1><p>​      古之学者必有师。师者，所以传道受业解惑也。人非生而知之者，孰能无惑？惑而不从师，其为惑也，终不解矣。生乎吾前，其闻道也固先乎吾，吾从而师之；生乎吾后，其闻道也亦先乎吾，吾从而师之。吾师道也，夫庸知其年之先后生于吾乎？是故无贵无贱，无长无少，道之所存，师之所存也。</p><h1 id="你好世界！"><a href="#你好世界！" class="headerlink" title="你好世界！"></a>你好世界！</h1><p>你好世界！你好Cloveme的博客！</p><h1 id="再见！"><a href="#再见！" class="headerlink" title="再见！"></a>再见！</h1><p>​            将进酒—-李白</p><p>君不见，黄河之水天上来，奔流到海不复回。</p><p>君不见，高堂明镜悲白发，朝如青丝暮成雪。</p><p>人生得意须尽欢，莫使金樽空对月。</p><p>天生我材必有用，千金散尽还复来。</p><p>烹羊宰牛且为乐，会须一饮三百杯。</p><p>岑夫子，丹丘生，将进酒，杯莫停。</p><p>与君歌一曲，请君为我倾耳听。</p><p>钟鼓馔玉不足贵，但愿长醉不复醒。</p><p>古来圣贤皆寂寞，惟有饮者留其名。</p><p>陈王昔时宴平乐，斗酒十千恣欢谑。</p><p>主人何为言少钱，径须沽取对君酌。</p><p>五花马，千金裘，呼儿将出换美酒，与尔同销万古愁。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Cloveme </tag>
+            
+        </tags>
       
     </entry>
     
@@ -27,15 +58,21 @@
       <link href="/posts/3eeb.html"/>
       <url>/posts/3eeb.html</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
       
       
       <categories>
           
-          <category> uncategorized </category>
+          <category> hello World </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> hello world </tag>
+            
+        </tags>
       
     </entry>
     
